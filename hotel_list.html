@@ -12,16 +12,16 @@
 	<link href="css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.min.css" rel="stylesheet" type="text/css" />
 	<title>Minya Hotels</title>
 	<link rel="stylesheet" href="css/popup.css">
 </head>
 
 <body data-color="theme-5">
-<!-- Start The Scroll To Top -->
-<div id="scroll-top">
-	<i class="fa fa-chevron-up fa-2x"></i>
-</div>
+	<!-- Start The Scroll To Top -->
+	<div id="scroll-top">
+		<i class="fa fa-chevron-up fa-2x"></i>
+	</div>
 	<!--loading-->
 	<div class="loading red">
 		<div class="loading-center">
@@ -70,17 +70,18 @@
 						</div>
 						<nav class="menu">
 							<ul>
-								<li class="type-1 active">
+								<li class="type-1">
 									<a href="index.html">home<span class="fa fa-angle-down"></span></a>
 								</li>
-								<li class="type-1"><a href="hotels.html">Hotels<span class="fa fa-angle-down"></span></a>
-									
+								<li class="type-1 active"><a href="hotels.html">Hotels<span
+											class="fa fa-angle-down"></span></a>
+
 								</li>
 								<li class="type-1"><a href="cars.html">Cars<span class="fa fa-angle-down"></span></a>
-									
+
 								</li>
 								<li class="type-1"><a href="tours.html">Tours<span class="fa fa-angle-down"></span></a>
-									
+
 								</li>
 							</ul>
 						</nav>
@@ -279,7 +280,8 @@
 											dolore magna aliqua.</p>
 									</div>
 									<div class="tab-info">
-										<form class="simple-from" name="information" onsubmit="return validateFormTour()" >
+										<form class="simple-from" name="information"
+											onsubmit="return validateFormTour()">
 											<div class="simple-group">
 												<h3 class="small-title color-dr-blue-2 ">Hotel Selection</h3>
 												<div class="row">
@@ -287,7 +289,7 @@
 														<div class="form-block type-2 clearfix">
 															<div class="form-label color-dark-2">Check In</div>
 															<div class="input-style-1 b-50 brd-0 type-2 color-3">
-																<input type="date" placeholder="Mm/Dd/Yy" class="" >
+																<input type="date" placeholder="Mm/Dd/Yy" class="">
 															</div>
 														</div>
 													</div>
@@ -328,21 +330,23 @@
 																	<a href="#" class="drop-list"><i
 																			class="fa fa-angle-down"></i></a>
 																	<span>
-																		<a href="#" class="numRoomHotel" >1</a>
-																		<a href="#" class="numRoomHotel" >2</a>
-																		<a href="#" class="numRoomHotel" >3</a>
-																		<a href="#" class="numRoomHotel" >4</a>
+																		<a href="#" class="numRoomHotel">1</a>
+																		<a href="#" class="numRoomHotel">2</a>
+																		<a href="#" class="numRoomHotel">3</a>
+																		<a href="#" class="numRoomHotel">4</a>
 																	</span>
 																</div>
 															</div>
 														</div>
 													</div>
-											
-							
+
+
 													<div class="col-xs-12 col-sm-12">
 														<div class="form-block type-2 clearfix">
 															<div class="sidebar-text-label bg-dr-blue-2 color-white">
-																<span class="h3" >Total Price : <span id="totalPrice" >  </span> EGP </span> </div>
+																<span class="h3">Total Price : <span id="totalPrice">
+																	</span> EGP </span>
+															</div>
 														</div>
 													</div>
 												</div>
@@ -355,8 +359,10 @@
 														<div class="form-block type-2 clearfix">
 															<div class="form-label color-dark-2">First Name</div>
 															<div class="input-style-1 b-50 brd-0 type-2 color-3">
-																<input type="text" name="fname"  placeholder="Enter your first name" >
-															     <span class="error color-dr-blue-2 " id="fnameErr"></span>
+																<input type="text" name="fname"
+																	placeholder="Enter your first name">
+																<span class="error color-dr-blue-2 "
+																	id="fnameErr"></span>
 															</div>
 														</div>
 													</div>
@@ -364,10 +370,12 @@
 														<div class="form-block type-2 clearfix">
 															<div class="form-label color-dark-2">Last Name</div>
 															<div class="input-style-1 b-50 brd-0 type-2 color-3">
-																<input type="text" name="lname" placeholder="Enter your last name" > 
-																<span class="error color-dr-blue-2" id="lnameErr"></span>
+																<input type="text" name="lname"
+																	placeholder="Enter your last name">
+																<span class="error color-dr-blue-2"
+																	id="lnameErr"></span>
 															</div>
-															
+
 														</div>
 													</div>
 													<div class="col-xs-12 col-sm-6">
@@ -375,10 +383,11 @@
 															<div class="form-label color-dark-2">E-mail Adress</div>
 															<div class="input-style-1 b-50 brd-0 type-2 color-3">
 																<input type="email" name="email"
-																	placeholder="Enter your e-mail adress" >
-																	<span class="error color-dr-blue-2" id="emailErr"></span>
+																	placeholder="Enter your e-mail adress">
+																<span class="error color-dr-blue-2"
+																	id="emailErr"></span>
 															</div>
-															
+
 
 														</div>
 													</div>
@@ -416,8 +425,9 @@
 															<div class="input-style-1 b-50 brd-0 type-2 color-3">
 																<input type="number" name="mobile"
 																	placeholder="Enter your phone number">
-																	<span class="error color-dr-blue-2" id="mobileErr"></span>
-															</div>									
+																<span class="error color-dr-blue-2"
+																	id="mobileErr"></span>
+															</div>
 														</div>
 													</div>
 
@@ -425,7 +435,7 @@
 												<hr>
 											</div>
 
-											<input type="submit"  class="c-button bg-dr-blue-2 hv-dr-blue-2-o"
+											<input type="submit" class="c-button bg-dr-blue-2 hv-dr-blue-2-o"
 												value="confirm booking">
 										</form>
 									</div>
@@ -439,7 +449,7 @@
 
 
 
-						 
+
 						<div class="detail-content-block">
 							<h3>If You Have Any Questions</h3>
 							<div class="accordion style-2">
@@ -545,9 +555,10 @@
 				<!--block detalis-->
 				<div class="col-xs-12 col-md-4">
 					<div class="right-sidebar">
-							<iframe class="padd-40"
+						<iframe class="padd-40"
 							src="https://www.google.com/maps?q=Minya%2C%20Qism%20Minya%2C%20Minya%2C%20Egypt&z=14&t=&ie=UTF8&output=embed"
-							height="250px" width="100%"></iframe><noscript> Full functionality of this site requires JavaScript to
+							height="250px" width="100%"></iframe><noscript> Full functionality of this site requires
+							JavaScript to
 							be enabled. Learn how to <a href="https://javascriptdownload.org/">Download
 								JavaScript</a> in your browser.</noscript>
 
@@ -616,8 +627,8 @@
 										<div class="price price-s-1">$27</div>
 									</div>
 									<div class="title clearfix">
-										<h4><b> 
-											OMAR EL KHAYAM AL MINYA HOTELOPENS</b></h4>
+										<h4><b>
+												OMAR EL KHAYAM AL MINYA HOTELOPENS</b></h4>
 										<div class="rate-wrap">
 											<div class="rate">
 												<span class="fa fa-star color-yellow"></span>
@@ -718,7 +729,7 @@
 						<h6>Travel News</h6>
 						<div class="f_news clearfix">
 							<a class="f_news-img black-hover" href="#">
-								<img class="img-responsive" src="img/home_6/news_1.jpg" alt="">
+								<img class="img-responsive" src="img/5.jpg" alt="">
 								<div class="tour-layer delay-1"></div>
 							</a>
 							<div class="f_news-content">
@@ -729,7 +740,7 @@
 						</div>
 						<div class="f_news clearfix">
 							<a class="f_news-img black-hover" href="#">
-								<img class="img-responsive" src="img/home_6/news_2.jpg" alt="">
+								<img class="img-responsive" src="img/6.jpg" alt="">
 								<div class="tour-layer delay-1"></div>
 							</a>
 							<div class="f_news-content">
@@ -740,7 +751,7 @@
 						</div>
 						<div class="f_news clearfix">
 							<a class="f_news-img black-hover" href="#">
-								<img class="img-responsive" src="img/home_6/news_1.jpg" alt="">
+								<img class="img-responsive" src="img/5.jpg" alt="">
 								<div class="tour-layer delay-1"></div>
 							</a>
 							<div class="f_news-content">
@@ -767,7 +778,8 @@
 					<div class="footer-block">
 						<h6>Contact Info</h6>
 						<div class="contact-info">
-							<div class="contact-line color-grey-3"><i class="fa fa-map-marker"></i><span>Minya</span></div>
+							<div class="contact-line color-grey-3"><i class="fa fa-map-marker"></i><span>Minya</span>
+							</div>
 							<div class="contact-line color-grey-3"><i class="fa fa-phone"></i><a
 									href="tel:93123456789">+01065165640</a></div>
 							<div class="contact-line color-grey-3"><i class="fa fa-envelope-o"></i><a
@@ -792,8 +804,6 @@
 							<li><a class="link-aqua" href="#">About Us</a></li>
 							<li><a class="link-aqua" href="#">Support </a></li>
 							<li><a class="link-aqua" href="#">FAQ</a></li>
-							<li><a class="link-aqua" href="#">Blog</a></li>
-							<li><a class="link-aqua" href="#"> Forum</a></li>
 						</ul>
 					</div>
 				</div>
