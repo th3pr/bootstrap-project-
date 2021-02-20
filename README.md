@@ -17,3 +17,4 @@ MIT
 | jQuery DateTimePicker | https://github.com/CuriousSolutions/DateTimePicker |
 | jQuery UI | http://jqueryui.com |
 | Swiper Slider | http://www.idangero.us/sliders/swiper/ |
+| Isotope Filter & sort magical layouts | https://isotope.metafizzy.co/ |
